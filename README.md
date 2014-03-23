@@ -37,7 +37,7 @@ Looks up a player's stats.
 `player` should be the exact display name
 of the player.
 `game` should either be `rs3` for RuneScape 3 hiscores, or `osrs` for 
-Oldschool RuneScape hiscores. If not the lookup will default to RuneScape 3
+Oldschool RuneScape hiscores. If not, the lookup will default to RuneScape 3
 hiscores.
 
 `callback` returns an object with
