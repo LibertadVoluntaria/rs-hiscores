@@ -35,8 +35,10 @@ rsHiscores.lookup('zezima', 'rs3', function(err, stats) {
 Looks up a player's stats.
 
 `player` should be the exact display name
-of the player. `game` should either be `rs3` for RuneScape 3 hiscores, or
-`osrs` for Oldschool RuneScape hiscores.
+of the player.
+`game` should either be `rs3` for RuneScape 3 hiscores, or `osrs` for 
+Oldschool RuneScape hiscores. If not the lookup will default to RuneScape 3
+hiscores.
 
 `callback` returns an object with
 each a property for each skill. And each skill object has the properties `rank`,
